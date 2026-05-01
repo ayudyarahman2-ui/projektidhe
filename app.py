@@ -6,7 +6,7 @@ import random
 st.markdown("""
 <style>
 body {
-    background-color: #f5f7fb;
+    background-color: charcoal;
 }
 .card {
     background: white;
@@ -22,7 +22,7 @@ body {
 }
 .promo {
     color: red;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 .old-price {
@@ -40,6 +40,7 @@ body {
 # ---------- DATA ----------
 if "produk_data" not in st.session_state:
     st.session_state.produk_data = pd.DataFrame({
+        "Gambar": 
         "Nama": ["Nugget", "Sosis", "Dimsum"],
         "Harga": [25000, 18000, 22000],
         "Promo": [20000, None, None]
