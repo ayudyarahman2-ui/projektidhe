@@ -9,20 +9,20 @@ body {
     background-color: #f5f7fb;
 }
 .card {
-    background: white;
+    background: black;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
 .price {
-    font-size: 22px;
+    font-size: 14px;
     font-weight: bold;
     color: #1f77ff;
 }
 .promo {
     color: red;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
 }
 .old-price {
