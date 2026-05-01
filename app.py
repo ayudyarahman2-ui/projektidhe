@@ -18,7 +18,7 @@ body {
 .price {
     font-size: 14px;
     font-weight: bold;
-    color: #1f77ff;
+    color: black;
 }
 .promo {
     color: red;
