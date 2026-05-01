@@ -9,9 +9,9 @@ body {
     background-color: #f5f7fb;
 }
 .card {
-    background: black;
-    padding: 20px;
-    border-radius: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 11px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
