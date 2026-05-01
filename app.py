@@ -40,7 +40,6 @@ body {
 # ---------- DATA ----------
 if "produk_data" not in st.session_state:
     st.session_state.produk_data = pd.DataFrame({
-        "Gambar": 
         "Nama": ["Nugget", "Sosis", "Dimsum"],
         "Harga": [25000, 18000, 22000],
         "Promo": [20000, None, None]
